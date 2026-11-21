@@ -19,8 +19,6 @@ datos_inicio = {
 }
 
 
-
-
 def cargar_datos():
     if not os.path.exists(ruta_json):
         guardar_datos(datos_inicio)
@@ -163,6 +161,40 @@ def eliminar_materia(nombre, year):
     datos['materias'] = [m for m in datos['materias']
                          if not (m['nombre'] == nombre and m['year'] == year)]
     guardar_datos(datos)
+
+def promedio_estudiante(cedula):
+    notas_alumno = notas_estudiantes(cedula)
+    if len(notas_alumno) == 0:
+        return 0.0
+
+    suma = 0.0
+    for n in notas_alumno:
+        suma = suma + float(n['nota'])
+
+    return suma/len(notas_alumno)
+
+
+def promedio_seccion(year, seccion):
+    estudiantes = obtener_est()
+    promedio_alumnos = []
+
+    for student in estudiantes:
+        if student['year'] == year and student['seccion'] == seccion:
+            notas_alumno = notas_estudiantes(student['cedula'])
+            if len(notas_alumno) > 0:
+                prom = promedio_estudiante(student['cedula'])
+                promedio_alumnos.append(prom)
+            if len(promedio_alumnos) == 0:
+                return 0.0
+            suma_seccion = 0.0
+            for p in promedio_alumnos:
+                suma_seccion = suma_seccion + p
+
+            return suma_seccion / len(promedio_alumnos)
+
+
+
+
 
 
 
