@@ -1,0 +1,315 @@
+{
+    "configuracion": {
+        "nombre_colegio": "Colegio",
+        "escala_maxima": 20,
+        "nota_aprobatoria": 10
+    },
+    "periodos": [
+        "2026-2027"
+    ],
+    "usuarios": [
+        {
+            "username": "admin",
+            "password_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "rol": "Admin"
+        }
+    ],
+    "estudiantes": [
+        {
+            "cedula": "11111111",
+            "nombres": "Sujeto 1",
+            "apellidos": "Sujeto 1",
+            "year": "1er año",
+            "seccion": "A",
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "22222222",
+            "nombres": "Sujeto 2",
+            "apellidos": "Sujeto 2",
+            "year": "1er año",
+            "seccion": "A",
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "33333333",
+            "nombres": "Sujeto 3",
+            "apellidos": "Sujeto 3",
+            "year": "1er año",
+            "seccion": "B",
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "44444444",
+            "nombres": "Sujeto 4",
+            "apellidos": "Sujeto 4",
+            "year": "1er año",
+            "seccion": "B",
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "55555555",
+            "nombres": "Sujeto 5",
+            "apellidos": "Sujeto 5",
+            "year": "2do año",
+            "seccion": "A",
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "66666666",
+            "nombres": "Sujeto 6",
+            "apellidos": "Sujeto 6",
+            "year": "2do año",
+            "seccion": "A",
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "77777777",
+            "nombres": "Sujeto 7",
+            "apellidos": "Sujeto 7",
+            "year": "2do año",
+            "seccion": "B",
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "8888888",
+            "nombres": "Sujeto 8",
+            "apellidos": "Sujeto 8",
+            "year": "3er año",
+            "seccion": "A",
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "99999999",
+            "nombres": "Sujeto 9",
+            "apellidos": "Sujeto 9",
+            "year": "3er año",
+            "seccion": "A",
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "1010101010101",
+            "nombres": "Sujeto 10",
+            "apellidos": "Sujeto 10",
+            "year": "3er año",
+            "seccion": "B",
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "1122111",
+            "nombres": "Sujeto 11",
+            "apellidos": "Sujeto 11",
+            "year": "3er año",
+            "seccion": "B",
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "12121212121",
+            "nombres": "Sujeto 12",
+            "apellidos": "Sujeto 12",
+            "year": "3er año",
+            "seccion": "B",
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "13131313131",
+            "nombres": "Suejto 13",
+            "apellidos": "Sujeto 13",
+            "year": "4to año",
+            "seccion": "A",
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "141414414",
+            "nombres": "Sujeto 14",
+            "apellidos": "Sujeto 14",
+            "year": "4to año",
+            "seccion": "A",
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "1515511",
+            "nombres": "Sujeto 15",
+            "apellidos": "Sujeto 15",
+            "year": "4to año",
+            "seccion": "B",
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "16166161",
+            "nombres": "Sujeto 16",
+            "apellidos": "Sujeto 16",
+            "year": "4to año",
+            "seccion": "B",
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "171771771",
+            "nombres": "Sujeto 17",
+            "apellidos": "Sujeto 17",
+            "year": "5to año",
+            "seccion": "A",
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "181881881",
+            "nombres": "Sujeto 18",
+            "apellidos": "Sujeto 18",
+            "year": "5to año",
+            "seccion": "A",
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "191919191",
+            "nombres": "Sujeto 19",
+            "apellidos": "Sujeto 19",
+            "year": "5to año",
+            "seccion": "B",
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "202020202",
+            "nombres": "Sujeto 20",
+            "apellidos": "Sujeto 20",
+            "year": "5to año",
+            "seccion": "B",
+            "periodo": "2026-2027"
+        }
+    ],
+    "secciones": [
+        "A",
+        "B"
+    ],
+    "materias": [
+        {
+            "nombre": "Castellano",
+            "year": "1er año"
+        },
+        {
+            "nombre": "Matematicas",
+            "year": "2do año"
+        },
+        {
+            "nombre": "Matematicas",
+            "year": "1er año"
+        },
+        {
+            "nombre": "Castellano",
+            "year": "2do año"
+        },
+        {
+            "nombre": "Castellano",
+            "year": "3er año"
+        },
+        {
+            "nombre": "Matematicas",
+            "year": "3er año"
+        },
+        {
+            "nombre": "Castellano",
+            "year": "4to año"
+        },
+        {
+            "nombre": "Matematicas",
+            "year": "4to año"
+        },
+        {
+            "nombre": "Castellano",
+            "year": "5to año"
+        },
+        {
+            "nombre": "Matematicas",
+            "year": "5to año"
+        }
+    ],
+    "calificaciones": [
+        {
+            "cedula": "11111111",
+            "materia": "Castellano",
+            "lapso": 1,
+            "corte": 1,
+            "nota": 16.5,
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "11111111",
+            "materia": "Castellano",
+            "lapso": 1,
+            "corte": 2,
+            "nota": 18.0,
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "11111111",
+            "materia": "Castellano",
+            "lapso": 1,
+            "corte": 3,
+            "nota": 14.0,
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "11111111",
+            "materia": "Matematicas",
+            "lapso": 1,
+            "corte": 1,
+            "nota": 14.0,
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "11111111",
+            "materia": "Matematicas",
+            "lapso": 1,
+            "corte": 2,
+            "nota": 13.0,
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "11111111",
+            "materia": "Matematicas",
+            "lapso": 1,
+            "corte": 3,
+            "nota": 17.0,
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "13131313131",
+            "materia": "Castellano",
+            "lapso": 1,
+            "corte": 3,
+            "nota": 9.0,
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "13131313131",
+            "materia": "Matematicas",
+            "lapso": 1,
+            "corte": 3,
+            "nota": 10.0,
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "13131313131",
+            "materia": "Castellano",
+            "lapso": 1,
+            "corte": 1,
+            "nota": 7.0,
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "13131313131",
+            "materia": "Matematicas",
+            "lapso": 1,
+            "corte": 1,
+            "nota": 5.0,
+            "periodo": "2026-2027"
+        },
+        {
+            "cedula": "13131313131",
+            "materia": "Matematicas",
+            "lapso": 1,
+            "corte": 2,
+            "nota": 5.0,
+            "periodo": "2026-2027"
+        }
+    ]
+}
